@@ -11,9 +11,4 @@ public class PrimeiroController {
 		return "Olá Spring Boot!";
 	}
 	
-	//Ambiguidade entre Métodos HTTP
-	@GetMapping(path= "/saudacao")
-	public String saudacao() {
-		return "Olá Spring Boot!";
-	}
 }
